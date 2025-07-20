@@ -52,10 +52,24 @@ header {
   margin-top: 10px;
   height: fit-content;
 }
-
 .right-pattern img {
   display: flex;
   justify-content: left;
   margin-left: auto;
   margin-top: -3.7rem;
+}
+
+
+.we-difference{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+
+}
+.we-difference span{
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
 }
