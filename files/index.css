@@ -1,48 +1,61 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    display: flex;
-    justify-content:space-between;
-    padding: 1.4rem 15px;
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.4rem 15px;
 }
 
-.navImage img{
-    width: 100%;
+.navImage img {
+  width: 100%;
 }
 
-.hero{
+.hero {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(256, 26%, 20%);
+  color: hsl(0, 8%, 91%);
+  margin-top: -4px;
+}
+.heroText{
     display: flex;
     flex-direction: column;
-    background-color: hsl(256, 26%, 20%);
-    color: hsl(0, 8%, 91%);
-    margin-top: -4px;
-}
-.hero h2{
-    line-height: 1;
-    font-size: 3.2rem;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 0 20px;
-    margin-bottom: 10px;
-    margin-top: -3.7rem;
+    font-size: 20px;
 }
-.hero p{
-     padding: 0 23px;
-     font-size: 20px;
-     text-align: center;
-     line-height: 1.3;
+.hero h2 {
+  line-height: 1;
+  font-size: 3.2rem;
+  padding: 0 20px;
+  margin-top: -3.7rem;
 }
-button{
-display: flex;
-justify-content: center;
-align-items: center;
+.hero p {
+  padding: 0 23px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.3;
+}
+.hero button {
+  padding: 10px 2.7rem;
+  width: fit-content;
+  background-color: transparent;
+  color: hsl(0, 8%, 91%);
+  border: 1.5px solid white;
+  font-size: 16px;
+  margin-top: 10px;
+  height: fit-content;
 }
 
-.right-pattern img{
-    display: flex;
-    justify-content: left;
-    margin-left: auto;
+.right-pattern img {
+  display: flex;
+  justify-content: left;
+  margin-left: auto;
+  margin-top: -3.7rem;
 }
