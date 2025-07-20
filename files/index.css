@@ -29,6 +29,7 @@ header {
     justify-content: center;
     text-align: center;
     font-size: 20px;
+    padding-bottom: 7rem;
 }
 .hero h2 {
   line-height: 1;
@@ -54,17 +55,16 @@ header {
 }
 .right-pattern img {
   display: flex;
-  justify-content: left;
-  margin-left: auto;
-  margin-top: -3.7rem;
+  margin-top: -9.7rem;
+  position: absolute;
+  right: 0;
 }
 
 
 .we-difference{
     display: flex;
     flex-direction: column;
-    margin-bottom: 90px;
-
+    margin: 7rem;
 }
 .we-difference span{
     border-bottom: 2px solid black;
