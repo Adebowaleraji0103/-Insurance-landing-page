@@ -85,6 +85,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding: 0 29px;
     align-items: center;
     text-align: center;
     font-size: 28px;
