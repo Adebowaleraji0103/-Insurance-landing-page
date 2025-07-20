@@ -24,7 +24,7 @@ header{
 .hero h2{
     font-size: 3.2rem;
     text-align: center;
-    /* line-height: 2.7rem; */
+    line-height: 1;
     padding: 0 20px;
     margin-bottom: 10px;
     margin-top: -3.7rem;
