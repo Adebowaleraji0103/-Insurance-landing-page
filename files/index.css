@@ -44,7 +44,7 @@ header {
   line-height: 1.3;
 }
 .hero button {
-  padding: 10px 2.7rem;
+  padding: 15px 2.7rem;
   width: fit-content;
   background-color: transparent;
   color: hsl(0, 8%, 91%);
@@ -64,12 +64,19 @@ header {
 .we-difference{
     display: flex;
     flex-direction: column;
-    margin: 7rem;
+    margin: 7rem 0;
+    color:  hsl(270, 9%, 17%);
+    align-items: center;
+    text-align: center;
 }
 .we-difference span{
-    border-bottom: 2px solid black;
-    margin-top: 20px;
+    border-bottom: 1px solid hsl(270, 9%, 17%);
+    margin: 20px 0;
     width: 150px;
     margin: auto;
     text-align: center;
+}
+.we-difference h2{
+    font-size: 3rem;
+    margin: 20px 0;
 }
