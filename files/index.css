@@ -80,3 +80,12 @@ header {
     font-size: 3rem;
     margin: 20px 0;
 }
+
+.difference-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    
+}
