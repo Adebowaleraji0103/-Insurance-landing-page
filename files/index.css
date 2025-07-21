@@ -168,6 +168,11 @@ footer span {
 }
 
 
-@media screen and (min-width:390px){
-   navImage
+@media screen and (min-width: 680px) {
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+    header input{
+        width: 290px;
+    }
 }
