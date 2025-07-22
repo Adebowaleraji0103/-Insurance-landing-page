@@ -27,6 +27,11 @@ header {
   display: none;
 }
 
+.hero-section {
+  background-color: #2d2640ff;
+  color: #ffffff;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
