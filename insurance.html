@@ -3,39 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="./CSS/util.css" />
     <title>Frontend Mentor | Insure landing page</title>
-    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <main>
+    <div>
       <header>
-        <div>
-          <img src="../images/logo.svg" alt="" />
+        <!--  LOGO -->
+        <div class="logo-image-container">
+          <img class="logo-image" src="../images/logo.svg" alt="" />
         </div>
-        <div>
-          <img src="../images/icon-hamburger.svg" alt="" />
+        <!-- MOBILE HAMBURGER  -->
+        <div class="hamburger-image-container">
+          <img class="hamburger-image" src="../images/icon-hamburger.svg" alt="" />
         </div>
       </header>
-      <!-- ........section2............ -->
-      <div class="navImage">
-        <img src="../images/image-intro-mobile.jpg" alt="" />
-      </div>
+
+      <!-- ======== MAIN SECTION ========= -->
+      <main>
+        <!-- HERO SECTION -->
+        <section class="hero-container">
+          <div class="navImage">
+            <!-- mobile image -->
+            <img
+              class="mobile-hero-image"
+              src="../images/image-intro-mobile.jpg"
+              alt=""
+            />
+            <!-- desktop image -->
+            <img
+              class="desktop-hero-image"
+              src="../images/image-intro-desktop.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="hero-desc">
+            <h2>Humanizing your insurance.</h2>
+            <p>
+              Get your life insurance coverage easier and faster. We blend our
+              expertise and technology to help you find the plan that’s right
+              for you. Ensure you and your loved ones are protected.
+            </p>
+            <button>View plans</button>
+          </div>
+        </section>
+        <!-- HERO END -->
+      </main>
       <!-- ................................... -->
       <div class="hero">
         <div>
           <img src="../images/bg-pattern-intro-left-mobile.svg" alt="" />
         </div>
-
-        <div class="heroText">
-          <h2>Humanizing your insurance.</h2>
-          <p>
-            Get your life insurance coverage easier and faster. We blend our
-            expertise and technology to help you find the plan that’s right for
-            you. Ensure you and your loved ones are protected.
-          </p>
-          <button>View plans</button>
-        </div>
-
         <div class="right-pattern">
           <img src="../images/bg-pattern-intro-right-mobile.svg" alt="" />
         </div>
@@ -139,6 +159,6 @@
           </ul>
         </div>
       </footer>
-    </main>
+    </div>
   </body>
 </html>

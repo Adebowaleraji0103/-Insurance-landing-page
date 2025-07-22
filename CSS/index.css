@@ -4,14 +4,27 @@
   padding: 0;
 }
 
+/* === HEADER === */
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1.4rem 15px;
+  align-items: center;
+  padding: 1.2rem 15px;
 }
 
-.navImage img {
+.logo-image,
+.hamburger-image {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* HEADER END */
+
+/* HERO */
+.desktop-hero-image {
+  display: none;
 }
 
 .hero {
@@ -53,6 +66,9 @@ header {
   margin-top: 10px;
   height: fit-content;
 }
+
+/* HERO END */
+
 .right-pattern img {
   display: flex;
   margin-top: -9.7rem;
@@ -159,20 +175,14 @@ footer span {
   color: hsl(273, 4%, 51%);
 }
 .footer-company ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   color: hsl(256, 26%, 20%);
   list-style-type: none;
-  
 }
 
-
 @media screen and (min-width: 680px) {
-    .we-difference{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    header input{
-        width: 290px;
-    }
+  .mainImages {
+  }
 }
