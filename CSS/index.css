@@ -188,7 +188,19 @@ footer span {
 }
 
 @media screen and (min-width: 680px) {
-  .hero-images {
-    
+  .mobile-hero-image {
+    display: none;
   }
 }
+@media screen and (min-width: 680px) {
+  .desktop-hero-image {
+    display: flex;
+  }
+}
+@media screen and (min-width: 680px) {
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
