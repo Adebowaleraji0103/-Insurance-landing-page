@@ -50,6 +50,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 0 2rem;
   gap: 20px;
   width: 400px;
   font-size: 20px;
