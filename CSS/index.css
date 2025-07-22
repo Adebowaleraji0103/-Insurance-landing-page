@@ -191,17 +191,17 @@ footer span {
   list-style-type: none;
 } */
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 490px) {
   .mobile-hero-image {
     display: none;
   }
 }
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 490px) {
   .desktop-hero-image {
     display: flex;
   }
 }
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 750px) {
   .hero-section {
     display: flex;
     justify-content: space-between;
