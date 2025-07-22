@@ -28,10 +28,14 @@ header {
 }
 
 .hero-section {
+  
+  width: 100%;
   background-color: #2d2640ff;
   color: #ffffff;
 }
-
+.hero-images img{
+  width: 100%;
+}
 .hero {
   display: flex;
   flex-direction: column;
@@ -74,7 +78,7 @@ header {
 
 /* HERO END */
 
-.right-pattern img {
+/* .right-pattern img {
   display: flex;
   margin-top: -9.7rem;
   position: absolute;
@@ -185,7 +189,7 @@ footer span {
   gap: 10px;
   color: hsl(256, 26%, 20%);
   list-style-type: none;
-}
+} */
 
 @media screen and (min-width: 680px) {
   .mobile-hero-image {
