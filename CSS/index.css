@@ -34,50 +34,63 @@ header {
   background-color: #2d2640ff;
   color: #ffffff;
 }
-.hero-images img{
+.hero-images img {
   width: 100%;
 }
-.hero {
-  display: flex;
-  flex-direction: column;
-  background-color: hsl(256, 26%, 20%);
-  color: hsl(0, 8%, 91%);
-  margin-top: -4px;
+.hero-discription-AND-pattern {
+  position: relative;
 }
 .hero-discription {
+  width: fit-content;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 2rem;
-  gap: 20px;
-  width: 400px;
+  gap: 1rem;
   font-size: 20px;
-  padding-bottom: 7rem;
+  padding: 5rem 2.2rem;
+
 }
-.hero h2 {
+.hero-section button {
+  font-size: 16px;
+  width: fit-content;
+  height: fit-content;
+  padding: 13px 2.3rem;
+  margin-top: 10px;
+  color: hsl(0, 8%, 91%);
+  background-color: transparent;
+  border: 1.5px solid white;
+}
+
+.hero-sign-left {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: hsl(0, 8%, 91%);
+}
+.hero-sign-right {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: -11rem;
+  color: hsl(0, 8%, 91%);
+}
+/* .hero h2 {
   line-height: 1;
   font-size: 3.2rem;
   padding: 0 20px;
   margin-top: -3.7rem;
-}
-.hero p {
+} */
+/* .hero p {
   padding: 0 23px;
   font-size: 20px;
   text-align: center;
   line-height: 1.3;
-}
-.hero button {
-  padding: 15px 2.7rem;
-  width: fit-content;
-  background-color: transparent;
-  color: hsl(0, 8%, 91%);
-  border: 1.5px solid white;
-  font-size: 16px;
-  margin-top: 10px;
-  height: fit-content;
-}
+} */
 
 /* HERO END */
 
@@ -211,6 +224,18 @@ footer span {
     padding: 0 20px;
     position: relative;
   }
+  .hero-discription{
+    width: 500px;
+  }
+   .desktop-hero-image {
+    /* margin-top: 6rem; */
+    /* position: absolute; */
+    bottom: 0;
+   }
+  /* .hero-sign-right{
+    left: 0;
+    bottom: 0;
+  } */
 }
 /* @media screen and (min-width: 750px) {
   .desktop-hero-image {
@@ -218,4 +243,3 @@ footer span {
     right: 0;
   }
 } */
-
