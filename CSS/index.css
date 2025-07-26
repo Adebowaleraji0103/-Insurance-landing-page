@@ -128,6 +128,7 @@ header {
   padding: 0 29px;
   align-items: center;
   text-align: center;
+  justify-content: center;
   font-size: 28px;
 }
 .difference-logo p {
@@ -227,6 +228,9 @@ footer span {
   }
   .hero-discription{
     width: 500px;
+    align-items: center;
+
+ 
   }
  
   .hero-sign-right{
