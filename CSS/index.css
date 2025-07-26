@@ -218,6 +218,7 @@ footer span {
 
 @media screen and (min-width: 750px) {
   .hero-section {
+    display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     gap: 10px;
@@ -227,19 +228,12 @@ footer span {
   .hero-discription{
     width: 500px;
   }
-   .desktop-hero-image {
-    /* margin-top: 6rem; */
-    /* position: absolute; */
-    bottom: 0;
-   }
-  /* .hero-sign-right{
-    left: 0;
-    bottom: 0;
-  } */
-}
-/* @media screen and (min-width: 750px) {
-  .desktop-hero-image {
-    position: absolute;
-    right: 0;
+ 
+  .hero-sign-right{
+   display: none;
   }
-} */
+
+  .hero-sign-left{
+   display: none;
+  }
+}
