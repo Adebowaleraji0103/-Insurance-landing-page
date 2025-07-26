@@ -236,4 +236,9 @@ footer span {
   .hero-sign-left{
    display: none;
   }
+  .difference-logo-div{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 5rem;
+  }
 }
