@@ -229,7 +229,7 @@ footer span {
   .hero-discription{
     width: 500px;
     align-items: center;
-
+    margin-top: 6rem;
  
   }
  
@@ -245,4 +245,17 @@ footer span {
     flex-direction: row;
     padding: 15px 5rem;
   }
+  .first-out-main{
+    padding: 3rem 0;
+  }
+  .first-out{
+    padding: 3rem 0;
+  }
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 5rem;
+}
 }
